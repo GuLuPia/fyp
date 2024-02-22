@@ -38,9 +38,8 @@ export default {
 }
 
 .Panel-Content img {
-    width: 100%; /* 图片占满 Panel-Content 的宽度 */
-    height: 100%; /* 图片占满 Panel-Content 的高度 */
-    object-fit: contain; /* 调整图片的填充方式为contain，避免图片失真 */
+    width: 100%;
+    object-fit: cover; /* 调整图片的填充方式为contain，避免图片失真 */
 }
 </style>
     
